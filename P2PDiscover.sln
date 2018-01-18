@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2PDiscover.server", "P2PDiscover.server\P2PDiscover.server.csproj", "{C9EBD70C-14D8-40AF-8F36-36D83C97D01F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9EBD70C-14D8-40AF-8F36-36D83C97D01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9EBD70C-14D8-40AF-8F36-36D83C97D01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9EBD70C-14D8-40AF-8F36-36D83C97D01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9EBD70C-14D8-40AF-8F36-36D83C97D01F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79BE1352-13C0-48FA-8F01-40F5F943AD9F}
+	EndGlobalSection
+EndGlobal
