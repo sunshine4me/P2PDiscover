@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2PDiscover.server", "P2PDiscover.server\P2PDiscover.server.csproj", "{C9EBD70C-14D8-40AF-8F36-36D83C97D01F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2PDiscover.message", "P2PDiscover.message\P2PDiscover.message.csproj", "{CAFD5119-D211-4151-9C74-4A8D32EACE65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2PDiscover.client", "P2PDiscover.client\P2PDiscover.client.csproj", "{682A26C6-7520-4CA5-B99C-2964EB3427C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NATTest.server", "NATTest.server\NATTest.server.csproj", "{69177489-69F2-4682-8ECF-0B1399393849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NATTest.client", "NATTest.client\NATTest.client.csproj", "{7C1CCC16-5212-4402-A4F9-E7553CA3DFBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{C9EBD70C-14D8-40AF-8F36-36D83C97D01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9EBD70C-14D8-40AF-8F36-36D83C97D01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9EBD70C-14D8-40AF-8F36-36D83C97D01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFD5119-D211-4151-9C74-4A8D32EACE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFD5119-D211-4151-9C74-4A8D32EACE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFD5119-D211-4151-9C74-4A8D32EACE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFD5119-D211-4151-9C74-4A8D32EACE65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682A26C6-7520-4CA5-B99C-2964EB3427C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682A26C6-7520-4CA5-B99C-2964EB3427C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682A26C6-7520-4CA5-B99C-2964EB3427C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682A26C6-7520-4CA5-B99C-2964EB3427C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69177489-69F2-4682-8ECF-0B1399393849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69177489-69F2-4682-8ECF-0B1399393849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69177489-69F2-4682-8ECF-0B1399393849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69177489-69F2-4682-8ECF-0B1399393849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1CCC16-5212-4402-A4F9-E7553CA3DFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1CCC16-5212-4402-A4F9-E7553CA3DFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1CCC16-5212-4402-A4F9-E7553CA3DFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1CCC16-5212-4402-A4F9-E7553CA3DFBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

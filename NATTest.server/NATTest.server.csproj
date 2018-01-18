@@ -9,8 +9,4 @@
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\P2PDiscover.message\P2PDiscover.message.csproj" />
-  </ItemGroup>
-
 </Project>
