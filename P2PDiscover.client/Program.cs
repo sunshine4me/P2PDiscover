@@ -18,13 +18,13 @@ namespace P2PDiscover.client
             Receive();
             Thread.Sleep(1000);
 
-
+            Console.WriteLine("等待对方连接...");
             //进行连接
             envelope env = new envelope();
             env.type = envelopeType.connect;
             send(env, serverEP);
 
-
+           
 
             while (true) {
                 var str = Console.ReadLine();
@@ -48,9 +48,11 @@ namespace P2PDiscover.client
 
                     var env = JsonConvert.DeserializeObject<envelope>(message);
 
+                    //需要确认的信息
                     if (env.number > 0) {
                         envelope confirmEnv = new envelope();
                         confirmEnv.type = envelopeType.confirm;
+                        confirmEnv.number = env.number;
                         send(confirmEnv, remoteEP);
                     }
 

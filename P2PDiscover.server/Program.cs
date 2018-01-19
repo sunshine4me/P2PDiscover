@@ -96,7 +96,7 @@ namespace P2PDiscover.server {
 
                 for (int i = 0; i < 3; i++) {
                     udpServer.Send(sendbytes, sendbytes.Length, remoteEP);
-                    Thread.Sleep(3000);
+                    Thread.Sleep(5000);
                     if (cf.isConfirm) break;
                 }
 
